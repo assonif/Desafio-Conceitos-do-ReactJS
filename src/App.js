@@ -35,8 +35,6 @@ function App() {
     setRepositories(repositories.filter(repository => repository.id !== id));
   }
 
-    
-
   return (
     <div>
       <ul data-testid="repository-list">
@@ -51,7 +49,6 @@ function App() {
             </li>
           )
         })}
-        
       </ul>
 
       <button onClick={handleAddRepository}>Adicionar</button>
